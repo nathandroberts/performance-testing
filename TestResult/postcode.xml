@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="51" it="0" lt="51" ct="18" ts="1515516984812" s="false" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2657" sby="227" ng="1" na="2">
+<httpSample t="45" it="0" lt="45" ct="10" ts="1515517173710" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2657" sby="227" ng="1" na="2">
   <assertionResult>
     <name>Response Assertion</name>
-    <failure>true</failure>
+    <failure>false</failure>
     <error>false</error>
-    <failureMessage>Test failed: text expected to contain /result
-/</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="27" it="0" lt="27" ct="0" ts="1515516984866" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1055" sby="164" ng="1" na="2"/>
-<httpSample t="21" it="0" lt="21" ct="0" ts="1515516984893" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1049" sby="163" ng="1" na="2"/>
-<httpSample t="20" it="0" lt="20" ct="0" ts="1515516984915" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1053" sby="164" ng="1" na="2"/>
-<sample t="1" it="0" lt="0" ct="0" ts="1515516984935" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="378" sby="0" ng="1" na="2"/>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1515517173759" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1055" sby="164" ng="1" na="2"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1515517173780" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1049" sby="163" ng="1" na="2"/>
+<httpSample t="22" it="0" lt="22" ct="0" ts="1515517173811" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1053" sby="164" ng="1" na="2"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1515517173834" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="379" sby="0" ng="1" na="2"/>
 
 </testResults>
